@@ -1,0 +1,238 @@
+*{
+    font-family: arial,sans-serif;
+    margin: 0;
+}
+body {
+    height: 90vh;
+}
+
+/*navbar*/
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    list-style: none;
+    height: 45px;
+
+}
+#navbar li {
+    display: inline-block;
+    
+    padding-right: 15px;
+    font-size: 13px;
+    
+}
+#navbar li a {
+    text-decoration: none;
+    list-style: none;
+    color: rgba(0,0,0,0.87);
+}
+#navbar li a:hover {
+    text-decoration: underline;
+}
+#navbar label {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#navbar input {
+    visibility: hidden;
+    padding: 0px;
+}
+#navbar button {
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    padding: 0 12px;
+    line-height: 28px;
+    color: #fff;
+    outline: none;
+    border-radius: 2px;
+    margin-right: 22px;
+}
+
+
+
+/*main section */
+#main-section {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 58vh;
+}
+.search-bar {
+    display: flex;
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    border-radius: 24px;
+    width: 482px;
+    margin-top: 30px;
+    
+    justify-content: space-between;
+
+    
+    
+}
+.search-bar:hover {
+    margin-top: 32px;
+    border-top: none;
+    border-bottom: 2px;
+}
+.search-bar i {
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 12px;
+    color: rgba(124, 122, 122, 0.87);
+
+}
+.search-bar input:hover {
+    border-bottom: 1px solid #dfe1e5;
+
+}
+
+.search-bar-text {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    outline: none;
+    width: 430px;
+    
+    
+}
+.search {
+    background-image: -webkit-linear-gradient(top,#f8f9fa,#f8f9fa);
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    align-items: flex-start;
+    appearance: push-button;
+    margin-top: 22px;
+}
+#submit-buttons input[type="submit"]:hover{
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+}
+
+
+center {
+    display: block;
+    text-align: -webkit-center;
+    width: 484px;
+    height: 58px;
+}
+/*footer*/
+footer {
+    position: absolute;
+    border-top: 1px solid #dadce0;
+    display: flex;
+    height: 80px;
+    width: 100%;
+    bottom: 0;
+}
+
+footer ul li {
+    text-decoration: none;
+    list-style: none;
+}
+footer ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: rgba(0,0,0,.54);
+    text-align: left;
+    line-height: 40px;
+    
+}
+
+footer #container {
+    position: absolute;
+    border-top: 1px solid #dadce0;
+    display: flex;
+    width: 100%;
+    height: 50%;
+    align-self: flex-end;
+    bottom: 0;
+}
+footer #left {
+    display: flex;
+    
+    height: 100%;
+    width: 50%;
+    justify-self: flex-start;
+    justify-content: flex-start;
+    align-items: flex-end;
+    
+    
+}
+#left ul {
+    justify-self: flex-start;
+    align-self: flex-start;
+   
+    
+}
+#left li {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    
+
+}
+#left li a {
+    text-decoration: none;
+    list-style: none;
+    color: #70757a;
+    padding-left: 27px;
+    font-size: 14px;
+    line-height: 40px;
+}
+#left li a:hover {
+    text-decoration: underline;
+}
+
+footer #right {
+    display: flex;
+    
+    height: 100%;
+    width: 50%;
+    justify-self: flex-end;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+
+}
+#right li {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+
+}
+#right li a {
+    text-decoration: none;
+    list-style: none;
+    color: #70757a;
+    
+    font-size: 14px;
+    line-height: 40px;
+    white-space: nowrap;
+    padding-right: 27px;
+
+}
+#right li a:hover {
+    text-decoration: underline;
+}
