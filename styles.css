@@ -180,12 +180,17 @@ footer #left {
     
     
 }
+footer ul {
+    padding: 0;
+}
+.country {
+    padding-left: 28px;
+}
 #left ul {
     justify-self: flex-start;
     align-self: flex-start;
-   
-    
 }
+
 #left li {
     display: inline-block;
     text-decoration: none;
